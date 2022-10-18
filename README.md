@@ -1,5 +1,15 @@
 # fastapi_crud_ui_jinja2
 
+# issues
+* no db?
+* links don't work
+	* http://127.0.0.1:8000/fish = server error 
+
+# works
+* http://127.0.0.1:8000/docs
+* http://127.0.0.1:8000/
+
+
 ### Software requirements
 	* Python 3.6+ (native install)
 	* MongoDB 4.4.6 (native install)
@@ -12,7 +22,7 @@
 
 Maintain the directory  structure to execute the code
 ### The following command to be used to execute the program and live reload
- *uvicorn fastapi_crud_ui_jinja2:app --reload*
+ *uvicorn fastapi_crud_ui_server:app --reload*
 ### To access  the application 
  * http://localhost:8000 *
 
